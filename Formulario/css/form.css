@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.i {
+    width: 300px;
+    margin-left: 15%;
+}
+
+/*Todo o conteudo do form*/
+.containner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: solid 2px rgb(84, 78, 78);
+}
+
+form {
+    max-width: 150%;
+}
+
+.form {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 45%;
+    margin-left: 20%;
+}
+
+input {
+    border-radius: 5px;
+    padding: 2%;
+    border: rgba(28, 28, 28, 0.466) solid 1px;
+}
+
+select {
+    border-radius: 5px;
+    padding: 2%;
+    border: rgba(28, 28, 28, 0.466) solid 1px;
+    width: 50%;
+}
+
+.title {
+    padding: 5%;
+    color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.ft {
+    display: flex;
+    margin-bottom: 5%;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.firstname {
+    width: 50%;
+}
+
+.tel {
+    width: 50%;
+}
+
+.email {
+    margin-bottom: 1em;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-bottom: 1em;
+}
+
+.data {
+    width: 40%;
+}
+
+.botao {
+    background: #aa7f07;
+    border: none;
+    color: white;
+    padding: 2%;
+    border-radius: 1em;
+    transition: 0.5s;
+    width: 15em;
+}
+
+.bt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botao2 {
+    background: #aa7f07;
+    border: none;
+    color: white;
+    padding: 2%;
+    border-radius: 1em;
+    transition: 0.5s;
+    width: 15em;
+}
+
+.botao:hover {
+    background: black;
+   
+    cursor: pointer;
+}
+
+.botao2:hover {
+    background: black;
+   
+    cursor: pointer;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    margin-bottom: 10%;
+    min-height: 5em;
+    resize: none;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.radio {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.check {
+    margin-bottom: 5%;
+}
+
+.carda {
+    width: 100%;
+    padding: 3%;
+}
+
+.t {
+    margin-bottom: .5em;
+}
+
+.resultado {
+    margin-top: -2em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
