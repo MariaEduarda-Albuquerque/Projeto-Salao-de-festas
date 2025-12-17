@@ -1,0 +1,646 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+header{
+    background: #000000;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.i {
+    width: 160px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem  6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+.nav-list{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1 15rem;
+    color: #ffff;
+    font-weight: 600;
+}
+
+/*pro menu ficar responsivo*/
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+         margin-top: 50%;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+/*pro menu ficar responsivo fim*/
+.mobile-menu ul li a:hover{
+    color: #aa7f07;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+a{
+    position: relative;
+}
+
+.nav-bar ul li a:hover{
+    width: 100%;
+    color: #aa7f07;
+    padding-top: 7px;
+    border-top: 2px solid #aa7f07; 
+}
+
+/*Slides-Inicio*/
+ 
+.slider{
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 600px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+.slide img{
+    width: 100%;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 30px;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+/*Slides-Fim*/
+
+/* Anuncio inicio*/
+.container{
+  overflow: hidden;
+  position: absolute;
+  margin-top: -200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 400px;
+  left: 13%;
+  background-color: rgb(255, 249, 249);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.74);
+}
+.video {
+    position: absolute;
+    width: 500px;
+    height: 330px;
+    top: 7%;
+    left: 3%;
+    cursor: pointer;
+}
+
+.Titulotexto {
+    white-space: nowrap;
+    color:#d8b041;
+    margin-left: 555px;
+    margin-bottom: 330px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-style: normal; 
+}
+
+.Titulotexto2 {
+    position: absolute;
+    color:#d8b041;
+    margin-right: 600px;
+    margin-bottom: 250px;
+    font-size: 30px;
+    white-space: nowrap;
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    left: 750px;
+    top: 70px;
+}
+.texto{
+   position: absolute;
+    text-align: center;
+    left: 600px;
+    top: 150px;
+    color: rgb(29, 29, 29);
+    width: 500px;
+    font-style: normal;
+    font-size: 17px;
+    font-family: "Arima", system-ui;
+    
+}
+/* Anuncio fim*/
+
+/* Lugares de buffet*/
+.Lugarestexto {
+    margin-top: 280px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.unidade {
+    text-align: center;
+    color: #d8b041;
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.zonas {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.faixa {
+    margin-top: 10px;
+    height: 4px;
+    width: 180px;
+    background-color: #d8b041;
+    margin-left: 43%;
+}
+.analia{
+    width: 350px;
+    height: 300px;
+}
+.santana {
+    width: 350px;
+    height: 300px;
+}
+.cantareira{
+    width: 350px;
+    height: 300px;
+}
+.VilaRomana{
+    width: 350px;
+    height: 300px;
+}
+.imagens{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    filter: none;
+}
+.analia:hover {
+    filter: sepia(1);
+    filter: hue-rotate(30deg);
+    filter: brightness(1.1);
+    box-shadow: 0 0 20px #ddcf1169;
+}
+.santana:hover {
+    filter: sepia(1);
+    filter: hue-rotate(30deg);
+    filter: brightness(1.1);
+    box-shadow: 0 0 20px #ddcf1169;
+}
+.cantareira:hover {
+    filter: sepia(1);
+    filter: hue-rotate(30deg);
+    filter: brightness(1.1);
+    box-shadow: 0 0 20px #ddcf1169;
+}
+.VilaRomana:hover {
+    filter: sepia(1);
+    filter: hue-rotate(30deg);
+    filter: brightness(1.1);
+    box-shadow: 0 0 20px #ddcf1169;
+}
+
+.NomeBuffet{
+    margin-top: 14px;
+    color: #d8b041;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+.Lugarestexto {
+  font-family: "Cinzel", serif;
+  font-style: normal;
+}
+/* Lugares de buffet fim*/
+
+/*galeria*/
+.TituloGaleria {
+    margin-top: 70px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    font-size: 700;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.quadrado {
+    margin-top: 400px;
+    width: 100px;
+    height: 50px;
+    margin: 30px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    background-color: rgba(223, 222, 222, 0.589);
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+.quadrado:hover{
+    background-color: #a98523;
+}
+
+.conteudo {
+  column-count: 4;
+  column-gap: 10px;
+  }
+.niver {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.Casamento {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.Debutante {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.Evento {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+/*galeria fim*/
+
+/*Depoimento e terminal da home*/
+.container3{
+    margin-top: -17px;
+    width: 1515px;
+    height: 400px;
+    background-color: #000;
+    background-image: linear-gradient(180deg, #333 17%, #000 100%);
+}
+
+.container3 h1{
+    text-align: center;
+    padding: 40px;
+    color: #ffff;
+}
+
+.container3 h3{
+    text-align: center;
+    color: #d8b041;
+    margin-top: -20px;
+}
+
+.container3 .faixa{
+    margin-top: 15px;
+    height: 2px;
+    width: 175px;
+    background-color: #d8b041;
+    margin-left: 44%;
+}
+
+.container3 p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.c {
+    color: #d8b041c5;
+    font-family: "Cinzel", serif;
+    font-style: normal;
+}
+
+.P{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 500px;
+    text-align: center;
+    text-indent: 20px;
+    width: 500px;
+}
+
+
+.informacoes {
+    align-items: center;
+    margin-top: 20px;
+    width: 1510px;
+    justify-content: center;
+    height: 230px;
+    background: #2a2a2a;
+}
+
+.informacoes h1{
+    margin-right: 5px;
+    text-align: center;
+    padding: 15px;
+    color: #ffff;
+}
+
+.informacoes p{
+    position: absolute;
+    left: 80px;
+    padding: 5px;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+
+.promocoes {
+    margin-left: 390px;
+    padding: 30px;
+    font-size: 20px;
+    left: 30%;
+    color: #ffff;
+    font-family: "Cinzel", serif;
+    font-style: normal;
+}
+
+
+.inputs{
+    margin-top: 60px;
+    position: absolute;
+    height: 20px;
+    padding: 10px;
+    background: transparent;
+    margin-left: 300px;
+    border: 2px solid #fff;
+}
+
+.input1::placeholder{
+    color: white;
+}
+
+.input2::placeholder{
+    color: white;
+}
+
+.input1{
+    border: none;
+    background: none;
+    outline: none;
+    color: #ffff;
+    font-size: 20px;
+    width: 240px;
+}
+
+.inputs2{
+    margin-top: 60px;
+    margin-left: 600px;
+    position: absolute;
+    height: 20px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #ffff;
+}
+
+.input2{
+    border: none;
+    background: none;
+    outline: none;
+    color: #ffff;
+    font-size: 20px;
+    width: 240px;
+}
+
+
+a{
+   font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.gratis{
+    background: #d8b041;
+    margin-top: 30px;
+    position: absolute;
+    height: 20px;
+    padding: 12px;
+    margin-left: 900px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.gratis:hover{
+    background-color: #d8b041cf;
+}
+
+.contato{
+    background: #2a2a2a;
+    width: 100%;
+    height: 250px;
+}
+
+.contato p{
+    color: #ffff;
+}
+
+.numwhats{
+    cursor: pointer;
+}
+
+.emailfooter{
+    cursor: pointer;
+}
+.facebook{
+    cursor: pointer;
+}
+
+.insta{
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.yt{
+    cursor: pointer;
+    margin-top: -15px;
+}
+
+.footer{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 80px;
+}
+
+.footer h2{
+    color: #ccc;
+    text-align: center;
+    padding: 30px;
+    font-weight: 200;
+    font-size:medium ;
+}
+.sobre{
+    height: 280px;
+    column-count: 2;
+    text-indent: 20px;
+    margin-top: 50px;
+}
+
+.sobre p{
+    text-indent: 20px;
+}
+.titulosobre{
+    font-family: "Cinzel", serif;
+  font-style: normal;
+  font-size: 40px;
+}
+.sobreLugares{
+    border-bottom: 1px dashed rgb(192, 182, 46);
+}
+/*contato footer*/
+svg{
+    color: #d8b041;
+}
+.numwhats{
+    transform: translateY(70px);
+    margin-left: 50px;
+}
+.numeroWhats{
+    margin-left: 90px;
+    margin-top: 46px;
+}
+.emailfooter{
+  margin-left: 50px;
+}
+.nomeemail{
+    margin-left: 90px;
+    margin-top: -25px;
+}
+.yt{
+    transform: translateY(-190px);
+    margin-left: 1200px;   
+}
+.insta{
+    transform: translateY(-146px);
+    margin-left: 1150px;
+}
+.facebook{
+    transform: translateY(-100px);
+    margin-left: 1100px;
+}
+
