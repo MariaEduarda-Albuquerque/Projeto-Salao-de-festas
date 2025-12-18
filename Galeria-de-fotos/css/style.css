@@ -1,0 +1,406 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    background: #000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.i {
+    width: 160px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem 6rem;
+}
+
+.nav-list{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1 15rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-bar ul li a:hover {
+    color: #aa7f07;
+    padding-top: 7px;
+    border-top: 2px solid #aa7f07;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+a{
+    position: relative;
+}
+
+/* RESPONSIVO */
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+         margin-top: 60%;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open {
+        display: block;
+    }
+}
+/*pro menu ficar responsivo fim*/
+
+/*Slides-Inicio*/
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 30px;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+/*galeria*/
+.TituloGaleria h2 {
+    color: #be9a34;
+    margin-top: 4%;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-size: clamp(1rem, 2vw, 2rem);
+    clear: both; /*força o elemento a começar em uma nova linha, abaixo de elementos flutuantes.*/
+    position: relative;
+    z-index: 3;
+}
+
+.subtitulo h2{
+    color: #be9a34;
+    margin-top: 0%;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.faixa {
+    margin-top: 5px;
+    height: 4px;
+    width: 180px;
+    background-color: #d8b041;
+    margin-left: 45%;
+}
+/*galeria*/
+.galeria-container{
+    margin-top:2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;/*distribui os itens de forma uniforme dentro do container 
+    com espaços iguais entre eles e nas bordas.*/
+    gap: 2vw;
+    padding: 0 2vw;
+}
+.itens-galeria {
+    width: 350px;
+    height: 350px;
+}
+.itens-galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*redimensiona uma imagem para cobrir todo o espaço de seu elemento pai, 
+    mantendo suas proporções originais, cortando partes que não cabem.*/
+    box-shadow: #aa7f07d2 5px 7px 7px;
+    border-radius: 2%;
+}
+.itens-galeria img:hover{
+    transform: scale(1.1);
+}
+/*container final*/
+.container-final{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 100%;
+    height: 460px;
+}
+.container-final img {
+    width: 100%;
+    height: 100%;
+    
+}
+.texto-final{
+    color: #ffff;
+    text-align: center;
+    margin-left: 40%;
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+.não-perca{
+    position: relative;
+    margin-top: -150%;
+    font-size: 24px;  
+    font-family: "Cinzel", serif;
+}
+.desc-final{
+    position: relative;
+    color:  #ffffff;
+    margin-left: 6%;
+    margin-top: -20%;
+    object-fit: cover;
+    font-size: 20px;
+    font-size: clamp(1rem, 2vw, 2rem);
+    text-align: center;
+}
+.desc-final p {
+    font-family: "Playfair Display", serif;
+}
+
+/*footer*/
+.contato{
+    background: #2a2a2a;
+    width: 1000%;
+    height: 250px;
+}
+
+.contato p{
+    color: #ffff;
+}
+
+.numwhats{
+    cursor: pointer;
+}
+
+.emailfooter{
+    cursor: pointer;
+}
+.facebook{ 
+    cursor: pointer;
+}
+
+.insta{
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.yt{
+    cursor: pointer;
+    margin-top: -15px;
+}
+.pré-footer{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 80px;
+}
+
+.footer h2{
+    color: #ccc;
+    text-align: center;
+    padding: 30px;
+    font-weight: 200;
+    font-size:medium ;
+}
+
+svg{
+    color: #d8b041;
+}
+.numwhats{
+    transform: translateY(280%);
+    margin-left: 4%;
+}
+.numeroWhats{
+    margin-left: 90px;
+    margin-top: 46px;
+}
+.emailfooter{
+  margin-left: 4%;
+}
+.nomeemail{
+    margin-left: 90px;
+    margin-top: -25px;
+}
+.yt{
+    transform: translateY(-470%);
+    margin-left: 92%;   
+}
+.insta{
+    transform: translateY(-410%);
+    margin-left: 88%;
+}
+.facebook{
+    transform: translateY(-280%);
+    margin-left: 84%;
+}
+/*media para a galeria*/
+@media screen and (max-width: 730px) {
+        /*galeria*/
+        .TituloGaleria h2{
+            margin-top: 6%;
+            position: relative;
+        }
+        .faixa {
+            margin-left: 35%;
+            width: 30%; 
+        }
+
+    .itens-galeria{
+        margin-bottom: 3%;
+    }
+        /*container final*/
+        .container-final{
+            height: 380px;
+        }
+        .desc-final{
+            font-size: 18px;
+            margin-top: -50%;
+            margin-left: 2%;
+        }
+        .não-perca{
+            margin-top: -140%;
+            margin-left: -50%;
+        }
+        /*footer*/
+        .pré-footer{
+            margin-top: 3%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .footer{
+            background-color: #1a1a1a;
+            width: 100%;
+            height: auto;
+        }
+        
+        .footer h2{
+            color: #ccc;
+            text-align: center;
+            padding: 30px;
+            font-weight: 200;
+            font-size:medium ;
+        }
+        .sobre{
+            height: 280px;
+            column-count: 2;
+            text-indent: 20px;
+            margin-top: 50px;
+        }
+        
+        .sobre p{
+            text-indent: 20px;
+        }
+        .titulosobre{
+            font-family: "Cinzel", serif;
+          font-style: normal;
+          font-size: 40px;
+        }
+        .sobreLugares{
+            border-bottom: 1px dashed rgb(192, 182, 46);
+        }
+        
+        svg{
+            color: #d8b041;
+            object-fit: cover;
+            flex-wrap: wrap;
+        }
+        .numwhats{
+            transform: translateY(280%);
+            margin-left: 4%;
+        }
+        .numeroWhats{
+            margin-left: 90px;
+            margin-top: 46px;
+        }
+        .emailfooter{
+          margin-left: 4%;
+        }
+        .nomeemail{
+            margin-left: 90px;
+            margin-top: -25px;
+        }
+        .yt{
+            transform: translateY(-470%);
+            margin-left: 88%;   
+        }
+        .insta{
+            transform: translateY(-410%);
+            margin-left: 79%;
+        }
+        .facebook{
+            transform: translateY(-280%);
+            margin-left: 70%;
+        }
+    }

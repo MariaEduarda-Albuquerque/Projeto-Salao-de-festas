@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../images"
+		},
+		{
+			"path": "../js"
+		}
+	]
+}
+const menuButton = document.querySelector('.mobile-menu-button'); // Assuming you have a button with this class
+const menu = document.querySelector('.mobile-menu');
+const content = document.querySelector('.conteudo');
+
+menuButton.addEventListener('click', () => {
+  menu.classList.toggle('open'); 
+  content.classList.toggle('conteudo-aberto'); 
+});
