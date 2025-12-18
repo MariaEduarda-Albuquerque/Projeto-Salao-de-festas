@@ -4,194 +4,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de fotos</title>
+    <title>Buffet Casamento</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-    <link rel="stylesheet" href="js/lightBox/lightbox.css">
-   <script src="js/lightBox/lightbox-plus-jquery.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Merienda:wght@300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Merienda:wght@300..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <img class="i" src="images/logo.png" alt="Logo">
+               <img class="i" src="./images/logo.png" >
             </div>
-
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="../Cardapio/Página Inicial Cardápio/PgInicial Cardapio.html" class="nav-link">CARDÁPIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Formulario/form.html" class="nav-link">CONTATO</a>
-                    </li>
+                    <li class="nav-item"><a href="home.html" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="../Cardapio/Página Inicial Cardápio/PgInicial Cardapio.html" class="nav-link">CARDÁPIO</a></li>
+                    <li class="nav-item"><a href="../Galeria de fotos/index.html" class="nav-link">GALERIA</a></li>
+                    <li class="nav-item"><a href="../Formulário/form.html" class="nav-link">CONTATO</a></li>
                 </ul>
             </div>
 
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()">
-                    <img class="icon" src="images/menu_white_36dp.svg" alt="Menu">
-                </button>
+                <button onclick="menuShow()"><img class="icon" src="./images/menu_white_36dp.svg" alt=""></button>
             </div>
         </nav>
-
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../Cardapio/Página Inicial Cardápio/PgInicial Cardapio.html" class="nav-link">CARDÁPIO</a>
-                </li>
-                <li class="nav-item">
-                    <a href="Formulario/form.html" class="nav-link">CONTATO</a>
-                </li>
+                <li class="nav-item"><a href="home.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="../Cardapio/Página Inicial Cardápio/PgInicial Cardapio.html" class="nav-link">CARDÁPIO</a></li>
+                <li class="nav-item"><a href="../Galeria de fotos/index.html" class="nav-link">GALERIA</a></li>
+                <li class="nav-item"><a href="../Formulário/form.html" class="nav-link">CONTATO</a></li>
             </ul>
         </div>
     </header>
 
     <section>
-        <div class="conteudo">
-            <diV class="t">
-                <div class="TituloGaleria">
-                    <h2>A arte de transformar momentos em memórias inesquecíveis</h2>
-                </div>
-                <div class="subtitulo">
-                    <h2>Eventos impecáveis, para momentos memoráveis.</h2>
-                </div>
-            </diV>
-            <div class="faixa"> </div>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
 
-            <div class="container1">
-                <div class="galeria-container">
-                    <a href="images/FestaDe15.webp" class="itens-galeria">
-                        <img src="images/FestaDe15.webp">
-                    </a>
-                    <a href="images/confetes.jfif" class="itens-galeria">
-                        <img src="images/confetes.jfif">
-                    </a>
-                    <a href="images/CriançasAniversário.jpeg" class="itens-galeria">
-                        <img src="images/CriançasAniversário.jpeg">
-                    </a>
-                    <a href="images/Venue idea.jfif" class="itens-galeria">
-                        <img src="images/Venue idea.jfif">
-                    </a>
-                    <a href="images/What I Ordered for my Studio54 Themed Birthday _.jfif" class="itens-galeria">
-                        <img src="images/What I Ordered for my Studio54 Themed Birthday _.jfif">
-                    </a>
-                    <a href="images/download.jfif" class="itens-galeria">
-                        <img src="images/download.jfif">
-                    </a>
-                    <a href="images/boloNivercomFlores.jfif" class="itens-galeria">
-                        <img src="images/boloNivercomFlores.jfif">
-                    </a>
-                    <a href="images/flores.jfif" class="itens-galeria">
-                        <img src="images/flores.jfif">
-                    </a>
-                    <a href="images/familiaNiver.jfif" class="itens-galeria">
-                        <img src="images/familiaNiver.jfif">
-                    </a>
-                    <a href="images/PaisCasamento.jfif" class="itens-galeria">
-                        <img src="images/PaisCasamento.jfif">
-                    </a>
-                    <a href="images/Noivos.jfif" class="itens-galeria">
-                        <img src="images/Noivos.jfif">
-                    </a>
-                    <a href="images/CasamentoEscada.jfif" class="itens-galeria">
-                        <img src="images/CasamentoEscada.jfif">
-                    </a>
-                    <a href="images/35 fotos para te inspirar a fazer uma Decoração de Casamento com Luzes.jfif"
-                        class="itens-galeria">
-                        <img src="images/35 fotos para te inspirar a fazer uma Decoração de Casamento com Luzes.jfif">
-                    </a>
-                    <a href="images/Madrinhas.jfif" class="itens-galeria">
-                        <img src="images/Madrinhas.jfif">
-                    </a>
-                    <a href="images/IdeiasdeFotocasamento.jfif" class="itens-galeria">
-                        <img src="images/IdeiasdeFotocasamento.jfif">
-                    </a>
-                    <a href="images/Madrinhas2.jfif" class="itens-galeria">
-                        <img src="images/Madrinhas2.jfif">
-                    </a>
-                    <a href="images/LuzesCasamento.jfif" class="itens-galeria">
-                        <img src="images/LuzesCasamento.jfif">
-                    </a>
-                    <a href="images/VóDebutante.jfif" class="itens-galeria">
-                        <img src="images/VóDebutante.jfif">
-                    </a>
-                    <a href="images/CoroaDebutante.jfif" class="itens-galeria">
-                        <img src="images/CoroaDebutante.jfif">
-                    </a>
-                    <a href="images/ValsaDança.jfif" class="itens-galeria">
-                        <img src="images/ValsaDança.jfif">
-                    </a>
-                    <a href="images/AmigosDebutante.jfif" class="itens-galeria">
-                        <img src="images/AmigosDebutante.jfif">
-                    </a>
-                    <a href="images/DançaDebutante.jfif" class="itens-galeria">
-                        <img src="images/DançaDebutante.jfif">
-                    </a>
-                    <a href="images/FestaDebutante.jfif" class="itens-galeria">
-                        <img src="images/FestaDebutante.jfif">
-                    </a>
-                    <a href="images/FamiliaDebutante.jfif" class="itens-galeria">
-                        <img src="images/FamiliaDebutante.jfif">
-                    </a>
-                    <a href="images/VestidoDebutante.jfif" class="itens-galeria">
-                        <img src="images/VestidoDebutante.jfif">
-                    </a>
-                    <a href="images/evento2.jfif" class="itens-galeria">
-                        <img src="images/evento2.jfif">
-                    </a>
-                    <a href="images/LuzesEvento3.jfif" class="itens-galeria">
-                        <img src="images/LuzesEvento3.jfif">
-                    </a>
-                    <a href="images/Evento4Robô.jfif" class="itens-galeria">
-                        <img src="images/Evento4Robô.jfif">
-                    </a>
-                    <a href="images/TechnocolourEvento5.jfif" class="itens-galeria">
-                        <img src="images/TechnocolourEvento5.jfif">
-                    </a>
-                    <a href="images/restauranteEvento6.jfif" class="itens-galeria">
-                        <img src="images/restauranteEvento6.jfif">
-                    </a>
-                    <a href="images/drinksEvento7.jfif" class="itens-galeria">
-                        <img src="images/drinksEvento7.jfif">
-                    </a>
-                    <a href="images/Evento8.jfif" class="itens-galeria">
-                        <img src="images/Evento8.jfif">
-                    </a>
-                    <a href="images/eventoArco.jfif" class="itens-galeria">
-                        <img src="images/eventoArco.jfif">
-                    </a>
+                <div class="slide first">
+                    <img src="./images/menina.png">
                 </div>
 
-                <div class="container-final">
-                    <img src="images/container final (2).png">
-
-                    <div class="texto-final">
-                        <h2 class="não-perca">NÃO PERCA TEMPO!</h2>
-                    </div>
-
-                    <div class="desc-final">
-                        <p>Um momento especial merece ser eternizado com perfeição e qualidade e é isso que o MLG Buffet
-                            </br>
-                            realiza, com primor e sofisticação em cada detalhe, na decoração e no cardápio que você
-                            merece! </br>
-                            Por isso, não perca mais tempo, solicite o seu orçamento e tenha um evento inesquecível!</p>
-                    </div>
+                <div class="slide">
+                    <img src="./images/salão.png">
                 </div>
             </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+            </div>
+        </div>
+
+        <div class="container">
+            <iframe class="video" width="560" height="315"
+                src="https://youtu.be/bevR99_8ues?si=tCycA4ai1Ngo_Dng" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="anuncio"></div>
+            <h2 class="Titulotexto">Buffet de festas</h2>
+            <h3 class="Titulotexto2">MLG BUFFET</h3>
+                <p class="texto">A MLG Buffet oferece excelência em serviços, com equipe treinada para garantir conforto e tranquilidade. Atendemos diversos tipos de eventos, como casamentos, aniversários, festas de 15 anos, bodas e eventos corporativos. Conheça nossas unidades e realize o evento dos seus sonhos com qualidade e sofisticação.</p>
+        </div>
+        </div>
+
+        <div>
+            <h2 class="Lugarestexto">Conheça nosso Buffet de Festas e Casamentos</h2>
+            <h2 class="unidade">ESCOLHA A UNIDADE MAIS PRÓXIMA DE VOCÊ</h2>
+            <h3 class="zonas">ZONA NORTE, ZONA SUL, ZONA LESTE E ZONA OESTE</h3>
+            <div class="faixa"></div>
+
+            <div class="imagens">
+                <img class="analia" src="./images/AnáliaFranco.jpeg">
+                <img class="santana" src="./images/BuffetSantana.jpg">
+                <img class="cantareira" src="./images/Cantareira.jpeg">
+                <img class="VilaRomana" src="./images/buffetVilaRomana.jpg">
+            </div>
+
+            <div class="NomeBuffet">
+                <h3>Buffet Anália Franco</h3>
+                <h3>Buffet Cantareira</h3>
+                <h3>Buffet Santana</h3>
+                <h3>Buffet Vila Romana</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="galeria">
+        <h2 class="TituloGaleria">Confira os últimos Eventos realizados.</h2>
+        <div class="faixa"></div>
+
+        <div class="container2">
+            <div class="quadrado quadrado-aniversario" id="aniversario">Aniversário</div>
+            <div class="quadrado quadrado-casamento" id="casamento">Casamento</div>
+            <div class="quadrado quadrado-debutante" id="debutante">Debutante</div>
+            <div class="quadrado quadrado-evento" id="evento">Evento</div>
+        </div>
+
+       <div class="conteudo" id="conteudo-aniversario">
+        <img class="niver" src="./images/dança.jpeg">
+        <img class="niver" src="./images/confetes.jfif">
+        <img class="niver" src="./images/CriançasAniversário.jpeg">
+        <img class="niver" src="./images/Venue idea.jfif">
+        <img class="niver" src="./images/What I Ordered for my Studio54 Themed Birthday _.jfif">
+        <img class="niver" src="./images/download.jfif">
+        <img class="niver" src="./images/boloNivercomFlores.jfif" height="500px">
+        <img class="niver" src="./images/flores.jfif">
+        <img class="niver" src="./images/familiaNiver.jfif" height="408px">
+    </div>
+
+    <div class="conteudo" id="conteudo-casamento">
+        <img class="Casamento" src="./images/CasamentoEscada.jfif">
+        <img class="Casamento" src="./images/35 fotos para te inspirar a fazer uma Decoração de Casamento com Luzes.jfif">
+        <img class="Casamento" src="./images/pessoas e bebida.jpeg">
+        <img class="Casamento" src="./images/salão do casamento.jpeg">
+        <img class="Casamento" src="./images/moça e pais.jpeg">
+        <img class="Casamento" src="./images/jovem casal.avif">
+        <img class="Casamento" src="./images/casal feliz.jpeg">
+        <img class="Casamento" src="./images/moça e velhinha.jpeg">
+    </div>
+
+    <div class="conteudo" id="conteudo-debutante">
+        <img class="Debutante" src="./images/CoroaDebutante.jfif">
+        <img class="Debutante" src="./images/DançaDebutante.jfif">
+        <img class="Debutante" src="./images/FestaDebutante.jfif">
+        <img class="Debutante" src="./images/FamiliaDebutante.jfif">
+        <img class="Debutante" src="./images/pessoas.jpeg">
+        <img class="Debutante" src="./images/menina vestido dourado.jpeg">
+        <img class="Debutante" src="./images/menina e menino.webp">
+        <img class="Debutante" src="./images/moça e moço.jpeg">
+        <img class="Debutante" src="./images/vestido rosa.webp">
+    </div>
+
+    <div class="conteudo" id="conteudo-evento">
+        <img class="Evento" src="./images/evento2.jfif">
+        <img class="Evento" src="./images/LuzesEvento3.jfif">
+        <img class="Evento" src="./images/Evento4Robô.jfif">
+        <img class="Evento" src="./images/TechnocolourEvento5.jfif">
+        <img class="Evento" src="./images/restauranteEvento6.jfif">
+        <img class="Evento" src="./images/drinksEvento7.jfif">
+        <img class="Evento" src="./images/Evento8.jfif">
+        <img class="Evento" src="./images/eventoArco.jfif">
+    </div>
+
+    <section>
+        <div class="container3">
+            <h1>Depoimento de Clientes</h1>
+            <h3 class="c">CONFIRA O QUE DIZEM</h3>
+            <div class="faixa"></div>
+                <p class="P">Comemoramos o aniversário de 90 anos de minha mãe, D. Yolanda. 
+                    O espaço é lindo, a decoração de muito
+                    bom gosto. O importante de fato é que foi um momento muito especial para nós e para todos os
+                    convidados. Quero deixar registrado que estamos felizes e recomendamos a assessoria, com os quais
+                    pretendemos contar para outros bons momentos de nossas vidas</p>
+            <p class="c">Célia</p>
+        </div>
+        
+        <div class="informacoes">
+            <h1>Newsletter</h1>
+            <p class="promocoes">Receba nossas promoções e informações no seu e-mail:</p>
+            <div class="inputs">
+                <input class="input1" type="text" placeholder="Seu Nome">
+            </div>
+            <div class="inputs2">
+                <input class="input2" type="text" placeholder="Seu e-mail">
+            </div>
+            <div class="gratis">
+                <a href="#">ASSINAR NEWSLETTER</a>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="sobre">
+            <h2 class="titulosobre">Sobre</h2>
+            <P>Moderno e sofisticado, com muita qualidade e bom gosto.<br />
+            <p>Oferece excelência em seu serviço com equipe treinada para oferecer tranquilidade e conforto.</p>
+            <p>Estamos preparados para atender os mais variados tipos de eventos, como: Buffet para casamento</p>
+            <br>
+            <h2 class="titulosobre">Buffet para Casamentos</h2>
+            <p class="sobreLugares">Anália Franco - Av. Ver. Abel Ferreira, 2499 - Anália Franco, São Paulo - SP,
+                03372-015</p>
+            <br>
+            <p class="sobreLugares">Vila Romana - Rua Aurélia, 281. Vila Romana - São Paulo</p>
+            <br>
+            <p class="sobreLugares">Santana - Avenida Luís Dumont Villares, 707</p>
+        </div>
     </section>
 
     <footer class="pré-footer">
@@ -201,7 +211,7 @@
                 <path
                     d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
             </svg>
-            <p class="numeroWhats"> (11) 4002-8922</p>
+            <p class="numeroWhats">(11) 4002-8922</p>
             <br>
             <br>
             <svg class="emailfooter" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
@@ -240,6 +250,6 @@
     </footer>
 
     <script src="./js/script.js"></script>
-</body>
 
+</body>
 </html>
