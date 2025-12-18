@@ -1,0 +1,66 @@
+@media screen and (max-width: 730px) {
+    .faixa{
+        margin-left: 30%;
+    }
+
+    section p{
+        margin-top: 10%;
+        text-align: center;
+    }
+    /*footer*/
+    .pré-footer{
+        margin-top: 3%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer{
+        background-color: #1a1a1a;
+        width: 100%;
+        height: auto;
+    }
+
+    .footer h2{
+        color: #ccc;
+        text-align: center;
+        padding: 30px;
+        font-weight: 200;
+        font-size:medium ;
+    }
+
+    svg{
+        color: #d8b041;
+        object-fit: cover;
+        flex-wrap: wrap;
+    }
+    .numwhats{
+        transform: translateY(280%);
+        margin-left: 4%;
+    }
+    .numeroWhats{
+        margin-left: 90px;
+        margin-top: 46px;
+    }
+    .emailfooter{
+    margin-left: 4%;
+    }
+    .nomeemail{
+        margin-left: 90px;
+        margin-top: -25px;
+    }
+    .yt{
+        transform: translateY(-470%);
+        margin-left: 88%;   
+    }
+    .insta{
+        transform: translateY(-410%);
+        margin-left: 79%;
+    }
+    .facebook{
+        transform: translateY(-280%);
+        margin-left: 70%;
+    }
+    ul svg{
+        display: none;
+    }
+}
+
