@@ -1,4 +1,4 @@
-# 🎉 Site de Salão de Festas
+#  Site de Salão de Festas
 
 Este projeto foi desenvolvido como trabalho escolar, sendo o *último trabalho do ano*, com foco na criação de um site institucional para um salão de festas.
 
