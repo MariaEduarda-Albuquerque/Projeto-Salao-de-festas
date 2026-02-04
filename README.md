@@ -6,7 +6,7 @@ O objetivo do projeto foi aplicar, na prática, os conhecimentos de *HTML, CSS e
 
 ---
 
-## 📌 Visão Geral do Projeto
+## Visão Geral do Projeto
 
 O site apresenta as principais informações de um salão de festas, incluindo:
 
@@ -60,7 +60,7 @@ A página de contato possui um *formulário*, permitindo que o usuário envie in
 
 
 
-## 🌐 Deploy
+## Deploy
 
 O projeto está disponível online através do GitHub Pages:
 
@@ -69,13 +69,13 @@ O projeto está disponível online através do GitHub Pages:
 
 
 
-## 🎓 Observação
+## Observação
 
 Este projeto foi desenvolvido *exclusivamente para fins educacionais*, como parte de um trabalho escolar, não possuindo fins comerciais.
 
 ---
 
-## ✨ Autora
+## Autora
 
 *Maria Eduarda*  
 Estudante de Desenvolvimento de Sistemas
