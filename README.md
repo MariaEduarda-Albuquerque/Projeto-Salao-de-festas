@@ -64,7 +64,7 @@ A página de contato possui um *formulário*, permitindo que o usuário envie in
 
 O projeto está disponível online através do GitHub Pages:
 
-🔗https://mariaeduarda-albuquerque.github.io/Projeto-Salao-de-festas/
+🔗https://mariaeduarda-albuquerque.github.io/Projeto-Salao-de-festas/Home/index.html
 
 
 
